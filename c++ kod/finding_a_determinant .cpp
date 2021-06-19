@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int determinant (int matris[] [100], int n)
+int determinant (int matris[] [90], int n)
 {
 	int son;
 	
@@ -14,7 +14,7 @@ int main ()
 	int sonuc;
 	int i, j;
 	
-	printf ("Kare matris için satir ve sutun sayisini giriniz: ");
+	printf ("Kare matris iÃ§in satir ve sutun sayisini giriniz: ");
 	scanf ("%d %d",&a);
 	
 	int mat [a] [a];
