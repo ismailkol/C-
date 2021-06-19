@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int yaz(char *dizi)
+int write(char *dizi)
 {
 	int i;
 	
@@ -30,7 +30,7 @@ int main()
 {
 	char str[] = "Ali program yaz!";
 	
-	yaz (str);
+	write(str);
 	
 	return 0;
 }
