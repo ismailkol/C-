@@ -3,22 +3,22 @@
 
 using namespace std;
 
-Create::Create(int ıd, string massege)
-	:ObjectId(ıd), message(massege) {
-	cout << "object" << ObjectId << "constractıon run" << message << endl;
+Create::Create(int Ã½d, string massege)
+	:ObjectId(Ã½d), message(massege) {
+	cout << "object" << ObjectId << "constractÃ½on run" << message << endl;
 }
 Create::~Create()
 {
 	cout << "object" << ObjectId << "destructon" << message << endl;
 }
 
-Create first(1, "enes");
+Create first(1, "ismail");
 int main() {
 
 	Create second(2, "ali");
 	static Create tree(3, "veli");
 	return 0;
-	// ilk normaller sonra statıkler sonra global nesneler yıkılır.
-	//en en basta fonksiyon ile oluşturulan nesneler yıkılır cunku fonksıyonun ısı bıtınce fonksıyon
-	//kapatılacagı ıcın nesnelerınıde otamatık olarak yıkmak zorunda kalacaktır.
+	// ilk normaller sonra statÃ½kler sonra global nesneler yÃ½kÃ½lÃ½r.
+	//en en basta fonksiyon ile oluÃ¾turulan nesneler yÃ½kÃ½lÃ½r cunku fonksÃ½yonun Ã½sÃ½ bÃ½tÃ½nce fonksÃ½yon
+	//kapatÃ½lacagÃ½ Ã½cÃ½n nesnelerÃ½nÃ½de otamatÃ½k olarak yÃ½kmak zorunda kalacaktÃ½r.
 }
