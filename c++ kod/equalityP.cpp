@@ -1,22 +1,22 @@
 #include<stdio.h>
 
-int ara(const char * a, const char * b);
+int Search(const char * a, const char * b);
 
 int main()
 {
 	char x[]="osmanli";
 	char y[]="osman";
 	
-	if(ara(&x[0], &y[0])==1)
+	if(Search (&x[0], &y[0])==1)
 	{
-		printf("Aranan kan bulundu");
+		printf("bulundu");
 	}
 	else{
-		printf("Malesef kansýzlýktan gideceksin");
+		printf("bulunmadi");
 	}
 }
 
-int ara(const char * a, const char * b)
+int Search (const char * a, const char * b)
 {
 	int i, ks, say;
 	
