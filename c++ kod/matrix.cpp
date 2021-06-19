@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int sarus (int matris [][3] )
+int MX (int matris [][3] )
 {
 	int i,j, genis[5][3];
 	
@@ -42,7 +42,7 @@ int main ()
 		}
 	}
 	
-	son = sarus (mat);
+	son = MX (mat);
 	
 	return 0;
 }
