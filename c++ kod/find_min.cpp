@@ -1,35 +1,35 @@
 #include <stdio.h>
 
-float minbul (const float *dizi, int boyut);
+float min(const float *dizi, int boyut);
 
 int main ()
 {
 	float dizi[]={0,1,-6,7,8,-3,-5,7,5,-7};
-	float min;
+	float Min;
 	int boyut=10;
 	
-	min = minbul (dizi, boyut);
+	Min = min (dizi, boyut);
 	
-	printf ("%f",min);
+	printf ("%f",Min);
 	
 	return 0;
 }
 
-float minbul (const float *dizi, int boyut)
+float min (const float *dizi, int boyut)
 {
 	int i;
-	float min = *dizi;
+	float Min = *dizi;
 	*dizi++;
 	
 	for (i=1; i<boyut; i++)
 	{
-		if ( min > *dizi )
+		if ( Min > *dizi )
 		{
-			min = *dizi;
+			Min = *dizi;
 		}
 		
 		*dizi++;
 	}
 	
-	return min;
+	return Min;
 }
