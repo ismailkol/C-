@@ -13,11 +13,11 @@ address *address1;
 int main(){
 employee employee1;
 
-  employee1.id=12;
-  employee1.name ="Enes";
+  employee1.id=20;
+  employee1.name ="ismail";
   employee1.department="Bilgisayar muh";
 
-   address addres ={"Rize",9};
+   address addres ={"istanbul",4};
    employee1.address1 =&addres;
    employee * ptr =&employee1;
 
