@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-double dMod (double mas, double md)
+double Mod (double mas, double md)
 {
 	double sonuc;
 	sonuc = fmod (mas, md);
@@ -17,7 +17,7 @@ int main()
 	printf ("Hangi sayiya gore mod alinacagini giriniz: ");
 	scanf ("%lf",&b);
 	
-	son = dMod(a,b);
+	son = Mod(a,b);
 	
 	printf ("%lf in %lf e bolumunden kalan %lf dir.",a,b,son);
 	
