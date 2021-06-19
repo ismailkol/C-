@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int tersC (char *cumle);
+int reverse  (char *cumle);
 
 int main ()
 {
@@ -8,12 +8,12 @@ int main ()
 	printf ("Cumlenizi giriniz: ");
 	scanf ("%s",&giris[0]);
 	
-	tersC (&giris[0]);
+	reverse  (&giris[0]);
 	
 	return 0;
 }
 
-int tersC (char *cumle)
+int reverse  (char *cumle)
 {
 	int i, ks;
 	char *dizi;
