@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-void ters (const char * dizi1, char * dizi2);
+void reverse (const char * dizi1, char * dizi2);
 
 int main()
 {
 	char a[]="edanur";
 	char b[100];
-	ters (&a[0], &b[0]);
+	reverse (&a[0], &b[0]);
 	printf ("%s",b);
 }
 
-void ters (const char * dizi1, char * dizi2)
+void reverse (const char * dizi1, char * dizi2)
 {
 	int i, ks;
 	
