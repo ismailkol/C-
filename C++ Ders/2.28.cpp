@@ -7,15 +7,15 @@ string department;
 };
 int main() {
 
- enployee enployee1={12,"Enes","bilgisayar müh."};
+ enployee enployee1={12,"ismail","bilgisayar mÃ¼h."};
  enployee enployee2;
  enployee2.id=13;
- enployee2.name="Baban";
- enployee2.department="babanci";
+ enployee2.name="fatih";
+ enployee2.department="isletme";
 
  cout << enployee1.name<< endl;
   cout << enployee2.name<< endl;
- enployee1.name="Enes Karali";
+ enployee1.name="ismail kol";
  cout << enployee1.name<< endl;
 
 
