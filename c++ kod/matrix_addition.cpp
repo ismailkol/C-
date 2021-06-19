@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 double mat1[10][10], mat2[10][10], toplam[10][10];
-void MatrisToplam (int satir, int sutun, double matris1[][10], double matris2[][10] )
+void MatrixSum (int satir, int sutun, double matris1[][10], double matris2[][10] )
 {
 	int i,j;
 	
@@ -45,7 +45,7 @@ int main()
 		}
 	}
 	
-	MatrisToplam(a,b,mat1,mat2);
+	MatrixSum(a,b,mat1,mat2);
 	
 	printf("\n\n");
 	for (i=0; i<a; i++ )
