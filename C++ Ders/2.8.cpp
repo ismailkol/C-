@@ -3,12 +3,12 @@ using namespace std;
 
 int main(){
 
-// or || bir tanesi true ise sonuc true olacaktır.
-// and && ikiside true olursa sonuc true olacaktır.
-// not | false ise true , true ise false olacaktır.
+// or || bir tanesi true ise sonuc true olacaktÃ½r.
+// and && ikiside true olursa sonuc true olacaktÃ½r.
+// not | false ise true , true ise false olacaktÃ½r.
 
-string sys_username = "enes_karali";
-string sys_password = "yazlimcibebe";
+string sys_username = "ismail_kol";
+string sys_password = "yazlimci";
 
 string username , password;
 
@@ -19,7 +19,7 @@ cout << "Paralonizi giriniz:";
 cin >> password ;
 
 if((sys_password==password)&&(sys_username==username)){
-    cout<< "Sisteme hosgeldiniz Enes Bey";
+    cout<< "Sisteme hosgeldiniz Ismail";
 
 }
 else if((sys_username!=username) && (sys_password==password)){
