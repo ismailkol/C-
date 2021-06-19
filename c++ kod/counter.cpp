@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-void findGreaterValues (int param[], int size, int value);
+void Find_values  (int param[], int size, int value);
 
 int main ()
 {
 	int myArray[]={23,12,0,40,4,60,90,78,89};
-	findGreaterValues (myArray, 9, 59);
+	Find_values (myArray, 9, 59);
 	return 0;
 }
 
-void findGreaterValues (int param[], int size, int value)
+void Find_values (int param[], int size, int value)
 {
 	int i,sayac=0;
 	
