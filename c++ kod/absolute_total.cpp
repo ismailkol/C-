@@ -1,22 +1,22 @@
 #include <stdio.h>
 #include <math.h>
 
-float mutlak_toplam (const float *dizi, int boyut);
+float absolute_total (const float *dizi, int boyut);
 
 int main ()
 {
 	float dizi[]={0,1,-6,7,8,-3,-5,7,5,-7};
-	float muttoplam;
+	float mtoplam;
 	int boyut=10;
 	
-	muttoplam = mutlak_toplam (dizi, boyut);
+	mtoplam = absolute_total(dizi, boyut);
 	
-	printf ("%f",muttoplam);
+	printf ("%f",mtoplam);
 	
 	return 0;
 }
 
-float mutlak_toplam (const float *dizi, int boyut)
+float absolute_total (const float *dizi, int boyut)
 {
 	int i;
 	float toplam=0;
