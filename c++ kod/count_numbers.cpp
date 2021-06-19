@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int rakam_bul (int sayi);
+int find_number (int sayi);
 
 int main ()
 {
@@ -9,12 +9,12 @@ int main ()
 	printf ("Lutfen bir sayi giriniz: ");
 	scanf ("%d",&x);
 	
-	rakam_bul(x);
+	find_number(x);
 	
 	return 0;
 }
 
-int rakam_bul (int sayi)
+int find_number (int sayi)
 {
 	int i, dizi[100], basamak, say=0, rakam, sayac=0;
 	
