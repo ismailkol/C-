@@ -7,12 +7,12 @@ string department ;
 };
 int main() {
 
-employee employee1 = {12,"Enes","Bilgisayar muh."};
+employee employee1 = {12,"Ismail","Bilgisayar muh."};
 
 employee * ptr = &employee1;
 
-cout << employee1.department << endl;// obje uzerýnden struct ulasma
-cout << ptr->department << endl;// poýnter ýle struct cagýrma
+cout << employee1.department << endl;// obje uzerÃ½nden struct ulasma
+cout << ptr->department << endl;// poÃ½nter Ã½le struct cagÃ½rma
 
 
 return 0;
