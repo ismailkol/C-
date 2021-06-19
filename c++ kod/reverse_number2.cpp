@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int ters_sayi(int gsayi)
+int reverse_number(int gsayi)
 {
 	int mod,basamak=0;
 	
@@ -26,7 +26,7 @@ int main()
 	
 	for (x=1; x<=1000; x++)
 	{
-		sayi=ters_sayi(x);
+		sayi=reverse_number(x);
 		
 		printf ("%d\n",sayi);
 			
