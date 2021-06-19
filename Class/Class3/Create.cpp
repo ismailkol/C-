@@ -3,8 +3,8 @@
 
 using namespace std;
 
-Create::Create(int ýd, string massege)
-	:ObjectId(ýd), message(massege) {
+Create::Create(int id, string massege)
+	:ObjectId(id), message(massege) {
 	cout << "object" << ObjectId << "constractýon run" << message << endl;
 }
 Create::~Create()
