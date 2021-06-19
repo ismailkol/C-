@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int faktoriyel(int gsayi)
+int Factorial(int gsayi)
 {
 	int kat,f=1;
 	
@@ -18,7 +18,7 @@ int main()
 	printf ("Bir sayi giriniz: ");
 	scanf ("%d",&x);
 	
-	sonuc = faktoriyel(x);
+	sonuc = Factorial(x);
 	
 	printf ("sayinin faktoriyeli: %d",sonuc);
 	
