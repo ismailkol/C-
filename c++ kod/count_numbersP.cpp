@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int RakamSay (int *sayi, int boyut);
+int count_numbers (int *sayi, int boyut);
 
 int main()
 {
@@ -13,12 +13,12 @@ int main()
 	printf ("Lutfen sayiyi giriniz: ");
 	scanf ("%d",&x);
 	
-	RakamSay(x, a);
+	count_numbers(x, a);
 	
 	return 0;
 }
 
-int RakamSay (int *sayi, int boyut)
+int count_numbers (int *sayi, int boyut)
 {
 	int i,rakam,say=0;
 	
