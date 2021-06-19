@@ -12,7 +12,7 @@ address address1;
 };
 int main() {
 
-  employee employee1={12,"Enes","Bilgisayar muh.",{"Rize",9}};
+  employee employee1={12,"ismail","Bilgisayar muh.",{"istanbul",9}};
   cout << employee1.id << endl;
   cout << employee1.name << endl;
   cout << employee1.department<< endl;
@@ -21,11 +21,11 @@ int main() {
   employee employee2;
 
   employee2.id=12;
-  employee2.name ="Enes";
+  employee2.name ="ismail";
   employee2.department="Bilgisayar muh";
-  employee2.address1.cityName="Rize";
+  employee2.address1.cityName="istanbul";
   employee2.address1.no=9;
-  // employee2.address1 ={"Rize",9} þeklindede iç içe olan structlar tanýmlanabýlýrdý.
+  
 
   cout << employee2.id << endl;
   cout << employee2.name << endl;
