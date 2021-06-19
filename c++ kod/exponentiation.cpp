@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int ust (int,int);
+int usAlma(int,int);
 
 int main (){
 	
@@ -13,7 +13,7 @@ int main (){
 	return 0;
 }
 
-int ust (int x,int y){
+int usAlma (int x,int y){
 	
 	int i=1, sonuc=1;
 	do{
