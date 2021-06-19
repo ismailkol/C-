@@ -2,7 +2,7 @@
 
 double matris[10][10], birim[10][10], toplam[10][10];
 
-void RasyonelMatrisT(int satir, double x, double mat[10][10])
+void rational_Matrix(int satir, double x, double mat[10][10])
 {
 	int i,j;
 	double rsm[10][10];
@@ -63,7 +63,7 @@ int main ()
 	printf ("Eklemek istediginiz rasyonel sayiyi giriniz: ");
 	scanf ("%lf",&ks);
 	
-	RasyonelMatrisT(a, ks, matris);
+	rational_Matrix(a, ks, matris);
 	printf("\n\n");
 	for (i=0; i<a; i++ )
 	{
