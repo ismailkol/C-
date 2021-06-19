@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
-int ters_sayi(int gsayi)
+int reverse_Number(int sayi)
 {
 	int mod,basamak=0;
 	
-	for (mod=10; gsayi>0; gsayi=gsayi/10)
+	for (mod=10; sayi>0; gsayi=gsayi/10)
 	{
-		basamak=gsayi%mod;
+		basamak=sayi%mod;
 		
 		int dizi [40],i=1;
 		
@@ -28,7 +28,7 @@ int main()
 	printf ("Bir sayi giriniz: ");
 	scanf ("%d",&x);
 	
-	ters_sayi (x);
+	 reverse_Number(x);
 	
 	return 0;
 }
