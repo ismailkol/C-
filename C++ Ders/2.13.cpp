@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-string sys_username="enes_karali";
+string sys_username="ismail_kol";
 string sys_password="123456";
 
 string username;
@@ -21,7 +21,7 @@ while(true){
         break;
     }
       else if(username!=sys_username&& password==sys_password){
-        cout<< "Kullanici adini yanlýs girdiniz";
+        cout<< "Kullanici adini yanlÃ½s girdiniz";
 
     }
       else if(username==sys_username&& password!=sys_password){
