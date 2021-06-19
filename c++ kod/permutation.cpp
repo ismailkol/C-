@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int faktoriyel(int gsayi)
+int faktoriyel(int sayi)
 {
 	int kat,f=1;
 	
-	for (kat=1; kat<=gsayi; kat++)
+	for (kat=1; kat<=sayi; kat++)
 	{
 		f=f*kat;
 	}
