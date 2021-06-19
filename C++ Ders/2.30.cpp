@@ -17,7 +17,7 @@ cout << "Name:"<< employee.name << endl;
 cout << "Department:"<< employee.department << endl;
 }
 int main() {
-employee employee1 ={12,"Enes","Bilgisayar muh."};
+employee employee1 ={12,"ismail","Bilgisayar muh."};
 showEmployee(employee1);
 show(&employee1);
 return 0;
